@@ -93,9 +93,14 @@ button:active {
 
 .panel {
     margin-bottom: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     position: relative;
     width: 50rem;
+}
+
+.panel.intro {
+    margin-top: 3rem;
 }
 
 .background-panel {
