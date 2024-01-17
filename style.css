@@ -105,7 +105,6 @@ button:active {
 }
 
 .background-panel {
-    animation: glow-breathing 10s infinite alternate;
     background-color: rgb(50, 50, 50);
     border-radius: 1rem;
     border-right: 0.2rem solid rgb(20, 20, 20);
