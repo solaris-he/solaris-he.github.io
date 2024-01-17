@@ -23,6 +23,7 @@ a {
 
 h1 {
     font-size: 1.75rem;
+    margin: 1rem 0rem;
 }
 
 h2 {
@@ -120,7 +121,7 @@ button:active {
 .foreground-panel {
     border-radius: 1rem;
     isolation: isolate;
-    padding: 3rem;
+    padding: 1rem 3rem 2rem 3rem;
     width: 100%;
     z-index: 2;
 }
