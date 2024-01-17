@@ -19,7 +19,7 @@ export const projects = {
         `,
         feat: [
             `Backend APIs are RESTful and were developed using Python with FastAPI framework.`,
-            `Frontend Interface was constructed with React.Js framework.`,
+            `Frontend Interface was constructed with React.JS framework.`,
             `Implmented relational database schema into 3NF form and setup SQLite3 databse.`,
             `Integrated Google Firebase into the application for user credential authentication.`,
             'Integrated 3rd-party APIs to automatically fetch movie posters, description, cast etc.',
