@@ -183,7 +183,7 @@ button:active {
 
 .project-placeholder {
     align-items: center;
-    animation: fadeIn 1.5s infinite alternate;
+    animation: fadeIn 3s infinite alternate;
     display: grid;
     height: 100%;
     justify-content: center;
@@ -206,7 +206,7 @@ button:active {
         opacity: 1;
     }
 
-    50% {
+    60% {
         opacity: 1;
     }
 
