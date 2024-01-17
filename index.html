@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./style.css'>
+
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- material symbol and icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- webpage title -->
+    <title>Solaris's Hideout</title>
+</head>
+
+<body>
+    <div class="menu-bar-container">
+        <div class="menu-bar-grid">
+            <button style="padding-right: 0.2rem;">
+                <span style="margin-right: 0.25rem;" class="material-symbols-outlined">home</span>
+                <text>Totally normal hideout</text>
+            </button>
+            <button><span class="material-symbols-outlined">expand_more</span></button>
+        </div>
+    </div>
+    <div class="panel intro">
+        <div class="background-panel intro"> </div>
+        <div class="foreground-panel intro">
+            <div class="intro-container">
+                <div>
+                    <h1 class="intro-text">
+                        <a class="typewrite" data-period="2000"
+                            data-type='[ "Greetings!", "Welcome to my secret hideout.", "Nice to have you here.", "Feel free to stay awhile." ]'>
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
+                </div>
+                <div class="dragon-welcome"></div>
+            </div>
+            <div class="about-me">
+                <p>
+                    Heya, my name is
+                    <text style="color:goldenrod;">Shaoxian He</text>.
+                </p>
+                <p>I am a full-stack engineer with 7-month experience,
+                    mainly working on performant and scalable web-applications.
+                    I enjoy exploring and being creative. There is much to discover,
+                    so I am flexible and willing to adapt to any workflow.
+                </p>
+                <p>I am open to works :)</p>
+                <div style="display:grid; justify-items:start;">
+                    <a href="./attachment/Resume - Shaoxian.pdf" style="margin-bottom: 0.2rem;"><button class="intro-resource-btn">My CV</button></a>
+                    <a href="https://www.linkedin.com/in/shaoxian-he/"><button
+                            class="intro-resource-btn">LinkedIn</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel project">
+        <div class="background-panel project"> </div>
+        <div class="foreground-panel project"> 
+            <h1>Projects</h1>
+            <hr>
+            <br>
+            <div class="project-container">
+                <div class="project-selection">
+                    <button class="project-btn faas">Finance as a Service</button>
+                    <button class="project-btn movie-finder">Movie Finder</button>
+                    <button class="project-btn cell-tracking">Cell Tracking</button>
+                </div>
+                <div class="project-detail-container">
+                    <p class="project-intro">Please select one project </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- auto-refresh -->
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+
+    <script type="module" src='./app.js'></script>
+</body>
+
+</html>
