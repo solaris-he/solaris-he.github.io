@@ -43,7 +43,7 @@ export const projects = {
         intro: `You are looking at it atm :)`,
         feat: [
             `It's still WIP.`,
-            `Built with pure vanlla Javascript, HTML5 and CSS.`,
+            `Built with pure vanilla Javascript, HTML5 and CSS.`,
             `Since I feel I am spoiled by those handy front-end frameworks during work and university,
             I decided that why not put things in manual gear and build this portfolio without any of it,
             and explore the concept and the fundamental of DOM Event life cycle.`,
