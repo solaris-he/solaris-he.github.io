@@ -93,8 +93,8 @@ button:active {
 
 .panel {
     margin-bottom: auto;
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     position: relative;
     width: 50rem;
 }
@@ -104,6 +104,7 @@ button:active {
 }
 
 .background-panel {
+    animation: glow-breathing 10s infinite alternate;
     background-color: rgb(50, 50, 50);
     border-radius: 1rem;
     border-right: 0.2rem solid rgb(20, 20, 20);
@@ -167,9 +168,9 @@ button:active {
 
 .project-selection {
     display: grid;
-    margin-right: 1rem;
     grid-row: 1;
     height: fit-content;
+    margin-right: 1rem;
 }
 
 .project-btn {
@@ -179,6 +180,14 @@ button:active {
     padding: 0.5rem;
 }
 
+.project-placeholder {
+    align-items: center;
+    animation: fadeIn 1.5s infinite alternate;
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
 
 /* Animations */
 @keyframes glow-breathing {
@@ -188,5 +197,19 @@ button:active {
 
     100% {
         box-shadow: 0rem 0rem 5px 0.2rem mediumaquamarine;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
     }
 }
