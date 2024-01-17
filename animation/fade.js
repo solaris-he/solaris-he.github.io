@@ -19,9 +19,9 @@ export function fadeOut(element, duration) {
 }
 
 export function fadeInFadeOut(element, action, duration) {
-    fadeOut(element);
+    fadeOut(element, duration);
     setTimeout(() => {
         action();
-        fadeIn(element);
+        fadeIn(element, duration);
     }, duration)
 }
