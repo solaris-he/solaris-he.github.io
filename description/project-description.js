@@ -12,7 +12,7 @@ export const projects = {
             `Groomed and implemented tickets with a total of 100+ story points.`,],
     },
     "movieGeeks": {
-        intro: `Movie Finder is an university capstone project.
+        intro: `Movie Geeks is an university capstone project.
         Its aim is to create an Imdb-like website to discover your next favourite movies.
         This web application with a full-package of movie rating, commenting and bookmarking functionalities.
         It has an optimised movie searching and filtering, and it also features a personalised movie recommendation assistant. 
