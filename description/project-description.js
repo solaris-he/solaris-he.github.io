@@ -10,6 +10,7 @@ export const projects = {
             `Groomed and implemented tickets with a total of 100+ story points.`,
             `Front-end: Vue.js, Nuxt.js, Typescript, HTML5, Tailwind CSS.`,
             `Back-end: Golang, gRPC, RESTful, PostgreSQL.`,
+            `Integration Testing Framework: Jest.`,
             `Deployment Platform: GCP, Kubernetes.`,
             `Deployment Automation: Gitlab CI/CD, ArgoCD.`,
             `Deployment Monitoring & Alerts: Datadog.`,
