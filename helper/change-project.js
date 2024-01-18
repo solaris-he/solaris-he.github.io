@@ -61,14 +61,14 @@ function changeContent(parent, pText, pFeat, pImg, pUrl) {
 
     const newP = document.createElement('p');
     newP.innerHTML = pText;
-
+    newP.style = "margin: 0rem;";
     const newUl = document.createElement('ul');
+    newUl.style = "margin-top: 0.75rem;"
     pFeat.forEach(feat => {
         const newLi = document.createElement('li');
         newLi.innerHTML = feat;
         newUl.appendChild(newLi);
     })
-
     parent.appendChild(newP);
     parent.appendChild(newUl);
 

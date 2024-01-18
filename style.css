@@ -11,8 +11,9 @@ body {
     background-repeat: no-repeat;
     color: aquamarine;
     display: grid;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', monospace;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 
 a {
@@ -31,7 +32,22 @@ h2 {
 }
 
 h3 {
+    font-weight: 500;
     font-size: 1.25rem;
+    color: goldenrod;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+hr {
+    margin-bottom: 1rem;
 }
 
 p {
@@ -44,8 +60,14 @@ img {
 }
 
 li {
+    color:beige;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+}
+
+text {
     color: beige;
-    margin: 1rem;
 }
 
 button {
@@ -97,7 +119,8 @@ button:active {
     margin-bottom: 1rem;
     margin-top: 1rem;
     position: relative;
-    width: 50rem;
+    /* width:fit-content; */
+    max-width: 50rem;
 }
 
 .panel.intro {
@@ -157,10 +180,6 @@ button:active {
 
 /* project panel */
 
-.foreground-panel .project {
-    display: grid;
-}
-
 .project-container {
     display: grid;
     grid-template-columns: 1fr 2.5fr;
@@ -187,6 +206,15 @@ button:active {
     height: 100%;
     justify-content: center;
     width: 100%;
+}
+
+.small-section {
+    margin-bottom: 1rem;
+}
+
+.subject-node {
+    font-size: 0.9rem;
+    font-weight: normal;
 }
 
 /* Animations */
