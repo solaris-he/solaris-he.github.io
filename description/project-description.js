@@ -53,7 +53,7 @@ export const projects = {
             hosting on server-provider like AWS etc. 
             After spending time researching and attempting different methods,
             I think github pages is the ideal choice.`,
-            `PS: Originally, there were some fancy scroll animations, but some browsers are fully supported. So this feature is scraped.`,
+            `PS: Originally, there were some fancy scroll animations, but this feature is poorly supported by some browsers. So this feature is scraped.`,
         ],
     },
 }
