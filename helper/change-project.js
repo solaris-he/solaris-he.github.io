@@ -76,6 +76,7 @@ function changeContent(parent, pText, pFeat, pImg, pUrl) {
         const newBr = document.createElement('br');
         const newImg = document.createElement('img');
         newImg.src = pImg;
+        newImg.style="width: 100%";
         // newImg.style.width = 'fit-content';
         parent.appendChild(newBr);
         parent.appendChild(newImg);

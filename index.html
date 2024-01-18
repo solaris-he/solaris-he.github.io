@@ -22,13 +22,15 @@
 </head>
 
 <body>
+    <div class="background-image-container">
+        <img class="background-image" src="./attachment/background-img.jpg">
+    </div>
     <div class="menu-bar-container">
         <div class="menu-bar-grid">
-            <button style="padding-right: 0.2rem;">
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" style="padding-right: 0.2rem; font-size: 1rem;">
                 <span style="margin-right: 0.25rem;" class="material-symbols-outlined">home</span>
-                <text>Totally normal hideout</text>
+                <div>Totally normal hideout</div>
             </button>
-            <button><span class="material-symbols-outlined">expand_more</span></button>
         </div>
     </div>
     <div class="panel intro">
@@ -48,7 +50,7 @@
             <div class="about-me">
                 <p>
                     Heya, my name is
-                    <text style="color:goldenrod; font-size: 1.5rem;">Shaoxian (Solaris) He</text>
+                    <text style="color:goldenrod; font-size: 1.5rem;">Shaoxian He</text>
                 </p>
                 <p>I am a full-stack engineer with 7-month experience,
                     mainly working on performant and scalable web-applications.
@@ -58,13 +60,14 @@
                 <p>I am open to works :)</p>
                 <div style="display:grid; justify-items:start;">
                     <a href="./attachment/Resume - Shaoxian.pdf" style="margin-bottom: 0.2rem;">
-                        <button class="intro-resource-btn">My CV
-                            <span class="material-symbols-outlined">
-                                description
-                            </span>
+                        <button class="intro-resource-btn">
+                            <span style="margin-right:0.25rem" class="material-symbols-outlined">description</span>
+                            My CV
                         </button></a>
                     <a href="https://www.linkedin.com/in/shaoxian-he/">
-                        <button class="intro-resource-btn"> LinkedIn
+                        <button class="intro-resource-btn">
+                            <span style="margin-right:0.25rem" class="material-symbols-outlined">link</span>
+                            LinkedIn
                         </button>
                     </a>
                 </div>
@@ -74,7 +77,7 @@
 
     <!-- project panel -->
     <div class="panel project">
-        <div class="background-panel project"> </div>
+        <div class="background-panel project"></div>
         <div class="foreground-panel project">
             <h1>Projects</h1>
             <hr>
@@ -146,6 +149,28 @@
                     </li>
                 </ul>
             </div>
+            <div>
+                <h4 class="small-section">Technical skills:</h4>
+                <div class="small-section">
+                    <h5>Proficient:</h5>
+                    <text>Golang, Vue.js, Typescript/Javascript, HTML5, Tailwind CSS</text>
+                </div>
+                <h5>Familiar:</h5>
+                <div style="display: grid; grid-template-columns: auto auto; justify-content: start;">
+                    <text class="align-right skill-category">Frontend:</text>
+                    <text class="align-left">React.js, Material UI.</text>
+                    <text class="align-right skill-category">Backend:</text>
+                    <text class="align-left">Python(FastAPI, Flask), C, C++, Java, PostgreSQL, SQLite3.</text>
+                    <text class="align-right skill-category">DevOps:</text>
+                    <text class="align-left">GitHub, GitLab, Docker, Kubernetes, ArgoCD, Terraform.</text>
+                    <text class="align-right skill-category">Design:</text>
+                    <text class="align-left">Figma, Adobe Creative Cloud.</text>
+                    <text class="align-right skill-category">Tools:</text>
+                    <text class="align-left">Git, VsCode, Vim, Postman.</text>
+                    <text class="align-right skill-category">OS:</text>
+                    <text class="align-left">Linux (Debian based), MacOS.</text>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -156,6 +181,16 @@
             <h1>Hobbies & Interests</h1>
             <hr>
             <br>
+            <ul>
+                <li>PC DIY</li>
+                <li>Travelling</li>
+                <li>2D/3D digital art</li>
+                <li>Game development</li>
+                <li>Flight & Racing Simulation</li>
+                <li>Fantasy-theme stuffs (books, movies, games etc.)</li>
+            </ul>
+            <h3>WIP. Check back later</h3>
+            
         </div>
     </div>
 
