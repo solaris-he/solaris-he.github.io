@@ -170,6 +170,7 @@ button:active {
     align-items: center;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    height: 5rem;
 }
 
 .intro-text {
