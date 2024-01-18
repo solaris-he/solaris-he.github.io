@@ -51,9 +51,9 @@ export const projects = {
             and explore the concept and the fundamental of DOM Event life cycle.`,
             `I am also exploring different ways of hosting a website such as building a web server locally and
             hosting on server-provider like AWS etc. 
-            After spending time researching and attempting different methods,
-            I think github pages is the ideal choice.`,
-            `PS: Originally, there were some fancy scroll animations, but this feature is poorly supported by some browsers. So this feature is scraped.`,
+            After spending time researching and attempting different methods, since no framework is used,
+            Github Pages seems to be the ideal choice.`,
+            `Originally, there were some fancy scroll animations, but this feature is poorly supported by some browsers. So this feature is scrapped.`,
         ],
     },
 }
