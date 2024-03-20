@@ -13,7 +13,7 @@ export const projects = {
             `Integration Testing Framework: Jest.`,
             `DevOps: GitLab CI/CD, GCP, Docker, Kubernetes, Terraform, Datadog.`,
             `Collaborated with product teams to address the product requirements and UI/UX designers to provide an intuitive web interface for admin users.`,
-        ,],
+            ,],
     },
     "movieGeeks": {
         intro: `Movie Geeks is an university capstone project.
@@ -33,13 +33,13 @@ export const projects = {
     "cellSegmentation": {
         intro: `Cell Segmentation is a university project about computer vision research. 
         Its primary aim is to create segmentation, labelling and tracking of the cells and automate cell mitosis detection.`,
-        feat:[
+        feat: [
             `Tech stacks: OpenCV, Python, Pytorch and Google Labs.`,
             `My contribution to this project is mainly focusing on the cell labelling process. I generated pseudo masks using watershed algorithm, 
             and I created consistent labelling, cell displacement calculation, cell size calculation, and tracking data for my teammates to detect mitosis with ML method.`,
-    ],
+        ],
         img: `../image/cell-segmentation.jpg`,
-        url:`https://github.com/Will3577/Cell_Segmentation_Project`,
+        url: `https://github.com/Will3577/Cell_Segmentation_Project`,
     },
     "personalPortfolio": {
         intro: `You are looking at it atm :)`,
@@ -56,4 +56,8 @@ export const projects = {
             `Originally, there were some fancy scroll animations, but this feature is poorly supported by some browsers. So this feature is scrapped.`,
         ],
     },
+    "australiaCareerForum": {
+        intro: `To be added`,
+        feat: [],
+    }
 }

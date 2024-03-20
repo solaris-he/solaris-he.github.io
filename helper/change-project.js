@@ -8,6 +8,7 @@ export function enableProjectChange() {
     es.movieFinderBtn.addEventListener("click", changeProject);
     es.cellSegBtn.addEventListener("click", changeProject);
     es.personalPortfolioBtn.addEventListener("click", changeProject);
+    es.australiaCareerForumfolioBtn.addEventListener("click", changeProject);
 }
 
 function changeProject(e) {
@@ -33,8 +34,12 @@ function changeProject(e) {
             fadeInFadeOut(parent, action, duration);
             break;
         case es.personalPortfolioBtn:
-            console.log("why?");
             project = projects.personalPortfolio;
+            action = () => { changeContent(parent, project.intro, project.feat) };
+            fadeInFadeOut(parent, action, duration);
+            break;
+        case es.australiaCareerForumfolioBtn:
+            project = projects.australiaCareerForum;
             action = () => { changeContent(parent, project.intro, project.feat) };
             fadeInFadeOut(parent, action, duration);
             break;
