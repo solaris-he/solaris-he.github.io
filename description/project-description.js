@@ -56,8 +56,4 @@ export const projects = {
             `Originally, there were some fancy scroll animations, but this feature is poorly supported by some browsers. So this feature is scrapped.`,
         ],
     },
-    "australiaCareerForum": {
-        intro: `To be added`,
-        feat: [],
-    }
 }
